@@ -157,7 +157,8 @@ ALGOS = {"FIFO": fifo, "LRU": lru, "Optimal": optimal}
 class PageReplacementApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Page Replacement Algorithm Simulator")
+        self.title("Page Replacement Algorithm Simulator - 24CSR042/24CSR053/24CSR034 ")
+        
         self.geometry("1400x860")
         self.minsize(1200, 760)
         self.configure(bg=BG_DARK)
